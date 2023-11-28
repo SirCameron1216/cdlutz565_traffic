@@ -6,6 +6,7 @@ from sklearn import metrics
 # Need to implement DT, RF, ADA, XG
 import pandas as pd
 import numpy as np
+import matplotlib
 from matplotlib import pyplot as plt
 import seaborn as sns
 import sklearn

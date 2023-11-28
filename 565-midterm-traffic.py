@@ -42,7 +42,7 @@ xg_pickle.close()
 #default_df = pd.read_csv('Traffic_Volume.csv')
 #default_df['weather_description'].replace(to_replace='Sky is Clear',value='sky is clear',inplace=True)
 default_df = pd.read_csv('traffic_clean.csv')
-default_df
+#default_df
 
 
 with st.form('user_inputs'):

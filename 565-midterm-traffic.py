@@ -7,34 +7,13 @@ from sklearn import metrics
 import pandas as pd
 import numpy as np
 
-import seaborn as sns
-import sklearn
+
 from sklearn.tree import DecisionTreeRegressor    # Decision Tree
 from sklearn.ensemble import RandomForestRegressor # RF
 from sklearn.ensemble import AdaBoostRegressor #ADABoost
 from xgboost import XGBRegressor # XGBoost
 
-# Package for data partitioning
-from sklearn.model_selection import train_test_split
 
-# Package for generating confusion matrix
-from sklearn import metrics
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-from sklearn.metrics import r2_score
-from sklearn.metrics import mean_squared_error
-
-# Package for generating classification report
-from sklearn.metrics import classification_report
-
-# Import packages to implement Stratified K-fold CV
-from sklearn.model_selection import KFold 
-from sklearn.model_selection import StratifiedKFold
-
-# Import Package to implement GridSearch CV
-from sklearn.model_selection import GridSearchCV
-
-# Importing package for Randomized Search CV
-from sklearn.model_selection import RandomizedSearchCV
 
 st.title('Traffic Volume Prediction')
 st.image('traffic_image.gif')
